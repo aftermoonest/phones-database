@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PhonesDB:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a4c0da8-fb3d-494c-b4b3-db0943fda393" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PhonesDB_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8a01c0ac-0082-45ad-b017-3c4f55b7b256.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/material_ui_swing_1_0_0_jar_with_dependencies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/PhonesDB_jar/PhonesDB.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/PhonesDB_jar/phonesdb.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phones.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phonesdb.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smartphones.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/dialect/SQLiteDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/dialect/SQLiteDialectIdentityColumnSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/entity/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/entity/PrimaryPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/entity/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/entity/util/Cast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/entity/util/DefaultValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/entity/util/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/Frame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/FrameMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/ColorChooser.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/ColorChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/add_field/AddNewPhone.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/add_field/AddNewPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/change_field/ChangeField.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/change_field/ChangeField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/delete_field/DeleteField.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/delete_field/DeleteField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/search_fields/SearchFields.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/search_fields/SearchFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/sort_fields/SortFields.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/gui/dialog/sort_fields/SortFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/repository/PhoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/table/AllPhonesTableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/table/CustomAbstractTableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/table/PhonesTableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/table/SmartPhonesTableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/util/DataBaseManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/UML/db.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/UML/db.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/UML/entity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/UML/entity.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/UML/gui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/UML/gui.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/change.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/defaults.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/sort.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/PhonesDB.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UML/db.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UML/db.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UML/entity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UML/entity.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UML/gui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/UML/gui.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/Executor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/dialect/SQLiteDialect$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/dialect/SQLiteDialect$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/dialect/SQLiteDialect$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/dialect/SQLiteDialect$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/dialect/SQLiteDialect$SQLiteUniqueDelegate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/dialect/SQLiteDialect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/dialect/SQLiteDialectIdentityColumnSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/entity/Phone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/entity/PrimaryPhone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/entity/SmartPhone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/entity/util/Cast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/entity/util/DefaultValues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/entity/util/Sorting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/Frame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/Frame$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/Frame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/Frame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/Frame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/Frame$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/Frame$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/Frame$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/Frame$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/Frame$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/Frame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/FrameMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/ColorChooser$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/ColorChooser$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/ColorChooser$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/ColorChooser$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/ColorChooser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/add_field/AddNewPhone$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/add_field/AddNewPhone$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/add_field/AddNewPhone$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/add_field/AddNewPhone$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/add_field/AddNewPhone$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/add_field/AddNewPhone$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/add_field/AddNewPhone$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/add_field/AddNewPhone$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/add_field/AddNewPhone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/change_field/ChangeField$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/change_field/ChangeField$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/change_field/ChangeField$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/change_field/ChangeField$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/change_field/ChangeField$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/change_field/ChangeField$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/change_field/ChangeField$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/change_field/ChangeField.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/delete_field/DeleteField$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/delete_field/DeleteField$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/delete_field/DeleteField$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/delete_field/DeleteField$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/delete_field/DeleteField.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/search_fields/SearchFields$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/search_fields/SearchFields$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/search_fields/SearchFields$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/search_fields/SearchFields$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/search_fields/SearchFields$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/search_fields/SearchFields$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/search_fields/SearchFields$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/search_fields/SearchFields$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/search_fields/SearchFields$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/search_fields/SearchFields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/sort_fields/SortFields$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/sort_fields/SortFields$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/sort_fields/SortFields$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/sort_fields/SortFields$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/sort_fields/SortFields$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/sort_fields/SortFields$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/sort_fields/SortFields$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/sort_fields/SortFields$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/gui/dialog/sort_fields/SortFields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/repository/PhoneRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/table/AllPhonesTableModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/table/CustomAbstractTableModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/table/PhonesTableModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/table/SmartPhonesTableModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/util/DataBaseManagement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/aftermoonest/util/HibernateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/img/change.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/img/defaults.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/img/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/img/remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/img/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/img/sort.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/task.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="phonesdb [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="phonesdb [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PhonesDB" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IntelliJConfiguration">
+    <option name="PROPERTY_FILES">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="REMOVE_NBSP" value="true" />
+    <option name="CREATE_NEW_JSP" value="true" />
+    <option name="KEY_RESOLUTION_TYPE" value="Use all words in label" />
+    <option name="PROMPT_FOR_KEY_PREFIX" value="false" />
+    <option name="LABEL_PART_1" value="&lt;bean:message key=&quot;" />
+    <option name="LABEL_PART_2" value="&quot;/&gt;" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SBszFxtJUp9eNL2Z9lvTkJDTOv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="360" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/UML" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31113663" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\koval\IdeaProjects\PhonesDB\src\main\resources\UML" />
+      <recent name="C:\Users\koval\IdeaProjects\PhonesDB\src\main\java\com\aftermoonest\gui\dialog\delete_field" />
+      <recent name="C:\Users\koval\IdeaProjects\PhonesDB\src\main\java\com\aftermoonest\gui\dialog\add_field" />
+      <recent name="C:\Users\koval\IdeaProjects\PhonesDB\src\main\java\com\aftermoonest\gui\dialog" />
+      <recent name="C:\Users\koval\IdeaProjects\PhonesDB\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="data" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Executor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aftermoonest.Executor" />
+      <module name="PhonesDB" />
+      <option name="VM_PARAMETERS" value="--add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/jdk.internal.loader=ALL-UNNAMED --add-opens java.desktop/javax.swing=ALL-UNNAMED --add-opens java.desktop/javax.swing.text=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED --add-opens java.desktop/java.awt=ALL-UNNAMED --add-opens java.desktop/javax.swing.table=ALL-UNNAMED --add-opens java.desktop/com.sun.awt=ALL-UNNAMED --add-opens java.desktop/sun.awt=ALL-UNNAMED --add-opens java.desktop/sun.swing=ALL-UNNAMED --add-opens java.desktop/sun.font=ALL-UNNAMED --add-opens java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens java.desktop/javax.swing.plaf.synth=ALL-UNNAMED --add-opens java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED --add-opens java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED --add-opens java.desktop/com.apple.laf=ALL-UNNAMED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Executor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="486.0" y="724.0">com.aftermoonest.gui.dialog.ColorChooser</node>
+    <node x="663.0" y="724.0">com.aftermoonest.gui.dialog.delete_field.DeleteField</node>
+    <node x="353.0" y="0.0">com.aftermoonest.gui.dialog.change_field.ChangeField</node>
+    <node x="75.5" y="0.0">com.aftermoonest.gui.FrameMain</node>
+    <node x="0.0" y="724.0">com.aftermoonest.gui.dialog.search_fields.SearchFields</node>
+    <node x="0.0" y="188.0">com.aftermoonest.gui.Frame</node>
+    <node x="287.0" y="724.0">com.aftermoonest.gui.dialog.sort_fields.SortFields</node>
+    <node x="697.0" y="0.0">com.aftermoonest.gui.dialog.add_field.AddNewPhone</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.aftermoonest.gui.Frame" target="com.aftermoonest.gui.FrameMain">
+      <point x="0.0" y="-245.5" />
+      <point x="0.0" y="69.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="771.7857142857143" y="458.5714285714285" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

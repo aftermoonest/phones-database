@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.aftermoonest.gui.Frame">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="847" height="477"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="f5edf" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="100"/>
+            <preferred-size width="1000" height="500"/>
+            <maximum-size width="1000" height="500"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Segoe UI Black" size="14"/>
+          <tabLayoutPolicy value="1"/>
+          <tabPlacement value="1"/>
+        </properties>
+        <border type="empty"/>
+        <children>
+          <scrollpane id="a7712" binding="allPhonesDB">
+            <constraints>
+              <tabbedpane title="All Phones"/>
+            </constraints>
+            <properties/>
+            <border type="empty"/>
+            <children>
+              <grid id="a94c8" binding="allPhonesDBPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </scrollpane>
+          <scrollpane id="17f7a" binding="phonesDBTab">
+            <constraints>
+              <tabbedpane title="Phones DB"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI Black" size="14"/>
+            </properties>
+            <border type="empty"/>
+            <children>
+              <grid id="971f6" binding="phonesDBPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </scrollpane>
+          <scrollpane id="54529" binding="smartPhonesDB">
+            <constraints>
+              <tabbedpane title="SmartPhones DB"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI Black" size="14"/>
+            </properties>
+            <border type="empty"/>
+            <children>
+              <grid id="c1431" binding="smartPhonesDBPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </scrollpane>
+          <scrollpane id="905b4" binding="searchPhonesBD">
+            <constraints>
+              <tabbedpane title="Search result"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+            </properties>
+            <border type="empty"/>
+            <children>
+              <grid id="3c3b7" binding="searchPhonesBDPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties/>
+                <border type="empty"/>
+                <children/>
+              </grid>
+            </children>
+          </scrollpane>
+        </children>
+      </tabbedpane>
+      <component id="625fa" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="14"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <grid id="3f9fb" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="2a040" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="1da32" class="javax.swing.JButton" binding="addFieldInDBButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="5" left="10" bottom="5" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI Black" size="14"/>
+                  <icon value="img/add.png"/>
+                  <text value=""/>
+                  <toolTipText value="Add new field in database."/>
+                </properties>
+              </component>
+              <component id="d7e8b" class="javax.swing.JButton" binding="changeFieldInDBButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="5" left="10" bottom="5" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI Black" size="14"/>
+                  <icon value="img/change.png"/>
+                  <text value=""/>
+                  <toolTipText value="Change field in database."/>
+                </properties>
+              </component>
+              <component id="1d321" class="javax.swing.JButton" binding="deleteFieldFromDBButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="5" left="10" bottom="5" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI Black" size="14"/>
+                  <icon value="img/remove.png"/>
+                  <text value=""/>
+                  <toolTipText value="Delete field from database."/>
+                </properties>
+              </component>
+              <component id="46b2c" class="javax.swing.JButton" binding="searchFieldButton" default-binding="true">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="5" left="10" bottom="5" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <font name="Segoe UI Black" size="14"/>
+                  <icon value="img/search.png"/>
+                  <text value=""/>
+                  <toolTipText value="Search field in database."/>
+                </properties>
+              </component>
+              <component id="eb529" class="javax.swing.JButton" binding="sortFieldsButton" default-binding="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="5" left="10" bottom="5" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <font name="Segoe UI Black" size="14"/>
+                  <icon value="img/sort.png"/>
+                  <text value=""/>
+                  <toolTipText value="Sort database."/>
+                </properties>
+              </component>
+              <component id="ab26d" class="javax.swing.JButton" binding="addDefaultFieldsInButton" default-binding="true">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="5" left="10" bottom="5" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <font name="Segoe UI Black" size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <icon value="img/defaults.png"/>
+                  <text value=""/>
+                  <toolTipText value="Add default values in database."/>
+                </properties>
+              </component>
+              <component id="c31ae" class="javax.swing.JButton" binding="updateTableButton" default-binding="true">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="5" left="10" bottom="5" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI Black" size="14"/>
+                  <icon value="img/refresh.png"/>
+                  <text value=""/>
+                  <toolTipText value="Update tables."/>
+                </properties>
+              </component>
+              <component id="744aa" class="javax.swing.JButton" binding="saveButton">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="5" left="10" bottom="5" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <icon value="img/save.png"/>
+                  <text value=""/>
+                  <toolTipText value="Save phones.db to phones.dat and smartphones.db to smartphones.dat."/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="79f4f" class="javax.swing.JCheckBox" binding="blackThemeCheckBox" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Semibold" size="10"/>
+          <text value="black theme"/>
+        </properties>
+      </component>
+      <vspacer id="1f41d">
+        <constraints>
+          <grid row="0" column="3" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="9428">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>

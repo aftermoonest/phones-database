@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="hibernate.dialect">com.aftermoonest.dialect.SQLiteDialect</property>
+        <property name="hibernate.connection.driver_class">org.sqlite.JDBC</property>
+        <property name="hibernate.connection.url">jdbc:sqlite:phonesdb.db</property>
+        <property name="hibernate.archive.autodetection">class</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.flushMode">ALWAYS</property>
+        <property name="hibernate.cache.use_second_level_cache">false</property>
+        <property name="hibernate.cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <mapping class="com.aftermoonest.entity.SmartPhone"/>
+        <mapping class="com.aftermoonest.entity.Phone"/>
+        <mapping class="com.aftermoonest.entity.PrimaryPhone"/>
+    </session-factory>
+</hibernate-configuration>
