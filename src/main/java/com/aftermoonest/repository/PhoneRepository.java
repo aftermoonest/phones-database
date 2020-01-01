@@ -1,7 +1,6 @@
 package com.aftermoonest.repository;
 
 import com.aftermoonest.entity.Phone;
-import com.aftermoonest.entity.PrimaryPhone;
 import com.aftermoonest.entity.SmartPhone;
 import com.aftermoonest.util.HibernateUtil;
 import org.hibernate.Session;
@@ -57,18 +56,18 @@ public class PhoneRepository {
         return smartPhone;
     }
 
-    public static List<SmartPhone> getSmartPhones() {
+    public static List getSmartPhones() {
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         session.getTransaction().begin();
-        List<SmartPhone> smartPhones = session.createQuery("FROM SmartPhone").list();
+        List smartPhones = session.createQuery("FROM SmartPhone").list();
         session.getTransaction().commit();
         return smartPhones;
     }
 
-    public static List<Phone> getPhones() {
+    public static List getPhones() {
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         session.getTransaction().begin();
-        List<Phone> phones = session.createQuery("FROM Phone").list();
+        List phones = session.createQuery("FROM Phone").list();
         session.getTransaction().commit();
         return phones;
     }
