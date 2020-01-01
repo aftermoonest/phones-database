@@ -55,7 +55,6 @@ public class PhoneRepository {
         session.getTransaction().commit();
         return smartPhone;
     }
-
     public static List getSmartPhones() {
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         session.getTransaction().begin();

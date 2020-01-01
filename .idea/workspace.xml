@@ -7,10 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a4c0da8-fb3d-494c-b4b3-db0943fda393" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phones.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phonesdb.db" beforeDir="false" afterPath="$PROJECT_DIR$/phonesdb.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smartphones.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aftermoonest/repository/PhoneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aftermoonest/repository/PhoneRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
